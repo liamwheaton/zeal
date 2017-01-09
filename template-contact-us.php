@@ -20,13 +20,13 @@ get_header(); ?>
 					<div  class="lcol-content contact-detail">
 						+64 9 820 5010
 					</div>
-					<img class="lcol-image contact-image" src="http://localhost/wordpress/wp-content/uploads/2017/01/phone-receiver.png" />
+					<img class="lcol-image contact-image" src="http://128.199.184.16/wp-content/uploads/2017/01/phone-receiver.png" />
 				</div>
 				<div  class="constrain cont-const">
 					<div  class="lcol-content contact-detail">
 						sales@pettreats.co.nz
 					</div>
-					<img class="lcol-image contact-image" src="http://localhost/wordpress/wp-content/uploads/2017/01/close-envelope.png" />
+					<img class="lcol-image contact-image" src="http://128.199.184.16/wp-content/uploads/2017/01/close-envelope.png" />
 				</div>
 			</div>
 		</div>

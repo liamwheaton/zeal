@@ -18,7 +18,7 @@
 	</a>
 	<footer id="colophon" class="site-footer" role="contentinfo">
 		<div class="col-full">
-			<img src="http://localhost/wordpress/wp-content/uploads/2016/12/Heart-icon-200.png" class="footer-img" />	
+			<img src="http://128.199.184.16/wp-content/uploads/2017/01/Heart-icon-200.png" class="footer-img" />	
 			<?php
 			/**
 			 * Functions hooked in to storefront_footer action
