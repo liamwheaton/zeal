@@ -29,7 +29,7 @@
 		<div  class="row-full">
 			<div class="constrain column">
 				<div  class="heading">
-					A message from the owner	
+					A message from Harjit Sidhu	
 				</div>
 				<div  class="constrain">
 					<div  class="lcol-content">
@@ -50,7 +50,7 @@
 				</div>
 			</div>
 			<div  id="overlay" class="map">
-				<iframe id="map" src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d6384.127501084571!2d174.74906105976632!3d-36.86489285790398!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2snz!4v1482248830051" width="100%" scrollwheel="false" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>	
+				<iframe id="map" src="https://www.google.com/maps/embed?mid=z3tkH5zB9hhg.kPSV2el7CdyI&z=6&amp;ll=49.268250, -123.150236" width="100%" scrollwheel="false" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>	
 			</div>
 		</div>
 		<div  class="row-full">

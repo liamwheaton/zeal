@@ -23,6 +23,33 @@ Template: storefront
 }
 header { 
 	.col-full {
+		.site-branding {
+			width:790px;
+			margin-top:30px;
+			float:left;
+			clear:none;
+			.heart {
+				width:150px;
+				height:150px;
+				float:left;
+				clear:none;
+				margin-right:120px;
+			}
+			.custom-logo {
+				margin-top:10px;
+				width:450px;
+				float:left;
+				clear:none;
+			}
+
+		}
+		.site-search {
+			.widget {
+				form {
+					margin-top:20px;
+				}
+			}
+		}
 		.storefront-primary-navigation {
 			background-color:white;
 		}
@@ -47,7 +74,7 @@ header {
 			font-family: 'Permanent Marker', cursive;
 			font-weight: 700;
 			font-size:4em;
-			color:white;
+			color:#45a31a;
 		}
 	}
 	main {
@@ -87,6 +114,7 @@ header {
 					  font-family: "Permanent Marker";
 					  font-size:4em;
 					  margin-bottom:0.5em;
+					  color:#45a31a;
 				  }
 					.rcol-content {
 						font-size:22px;
@@ -100,7 +128,7 @@ header {
 						border-radius:300px;
 						border-width:1em;
 						border-style: solid;
-						border-color:#4b4f54;
+						border-color:#45a31a;
 					}
 					.lcol-content {
 						font-size:22px;
@@ -114,7 +142,7 @@ header {
 						border-radius:300px;
 						border-width:1em;
 						border-style: solid;
-						border-color:#4b4f54;
+						border-color:#45a31a;
 					}
 					.fcol-content {
 						font-size:22px;

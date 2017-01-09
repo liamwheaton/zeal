@@ -20,6 +20,26 @@ Template: storefront
 .site {
   overflow-y: hidden; }
 
+header .col-full .site-branding {
+  width: 790px;
+  margin-top: 30px;
+  float: left;
+  clear: none; }
+  header .col-full .site-branding .heart {
+    width: 150px;
+    height: 150px;
+    float: left;
+    clear: none;
+    margin-right: 120px; }
+  header .col-full .site-branding .custom-logo {
+    margin-top: 10px;
+    width: 450px;
+    float: left;
+    clear: none; }
+
+header .col-full .site-search .widget form {
+  margin-top: 20px; }
+
 header .col-full .storefront-primary-navigation {
   background-color: white; }
 
@@ -40,7 +60,7 @@ header .col-full .storefront-primary-navigation {
       font-family: 'Permanent Marker', cursive;
       font-weight: 700;
       font-size: 4em;
-      color: white; }
+      color: #45a31a; }
   .max main {
     width: 100%;
     margin: 0 auto; }
@@ -72,7 +92,8 @@ header .col-full .storefront-primary-navigation {
         .max main .row-full .constrain .heading {
           font-family: "Permanent Marker";
           font-size: 4em;
-          margin-bottom: 0.5em; }
+          margin-bottom: 0.5em;
+          color: #45a31a; }
         .max main .row-full .constrain .rcol-content {
           font-size: 22px;
           max-width: 100%;
@@ -84,7 +105,7 @@ header .col-full .storefront-primary-navigation {
           border-radius: 300px;
           border-width: 1em;
           border-style: solid;
-          border-color: #4b4f54; }
+          border-color: #45a31a; }
         .max main .row-full .constrain .lcol-content {
           font-size: 22px;
           order: 1;
@@ -96,7 +117,7 @@ header .col-full .storefront-primary-navigation {
           border-radius: 300px;
           border-width: 1em;
           border-style: solid;
-          border-color: #4b4f54; }
+          border-color: #45a31a; }
         .max main .row-full .constrain .fcol-content {
           font-size: 22px;
           padding: 0 0 4em 0; }
