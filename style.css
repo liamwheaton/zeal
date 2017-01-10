@@ -117,9 +117,10 @@ header .col-full .storefront-primary-navigation {
           padding: 0 0 4em 0;
           margin: 0 0 0 4em; }
         .max main .row-full .constrain .contact-detail {
-          font-size: 4em;
+          font-size: 3em;
+          font-weight: 700;
           margin-left: 1em;
-          padding: 0.7em 0 1em 0; }
+          padding: 10px 0 30px 0; }
         .max main .row-full .constrain .lcol-image {
           width: 200px;
           height: 200px;
@@ -128,12 +129,25 @@ header .col-full .storefront-primary-navigation {
           border-style: solid;
           border-color: #45a31a; }
         .max main .row-full .constrain .contact-image {
-          padding: 2em; }
+          width: 100px;
+          height: 100px; }
         .max main .row-full .constrain .fcol-content {
           font-size: 22px;
           padding: 0 0 4em 0; }
       .max main .row-full .cont-const {
         margin-bottom: 3em; }
+      .max main .row-full .pirate_forms_wrap #pirate_forms_12 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row; }
+        .max main .row-full .pirate_forms_wrap #pirate_forms_12 .contact_message_wrap, .max main .row-full .pirate_forms_wrap #pirate_forms_12 .pirate_forms_three_inputs_wrap {
+          width: 526px; }
+        .max main .row-full .pirate_forms_wrap #pirate_forms_12 .pirate_forms_three_inputs_wrap .pirate_forms_three_inputs #pirate-forms-contact-name, .max main .row-full .pirate_forms_wrap #pirate_forms_12 .pirate_forms_three_inputs_wrap .pirate_forms_three_inputs #pirate-forms-contact-email, .max main .row-full .pirate_forms_wrap #pirate_forms_12 .pirate_forms_three_inputs_wrap .pirate_forms_three_inputs #pirate-forms-contact-subject {
+          width: 450px; }
+        .max main .row-full .pirate_forms_wrap #pirate_forms_12 .contact_message_wrap {
+          height: 226px; }
+          .max main .row-full .pirate_forms_wrap #pirate_forms_12 .contact_message_wrap #pirate-forms-contact-message {
+            height: 200px; }
 
 #masthead {
   margin-bottom: 0; }
