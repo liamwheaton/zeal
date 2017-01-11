@@ -14,7 +14,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no">
 <link rel="profile" href="http://gmpg.org/xfn/11">
 <link rel="pingback" href="<?php bloginfo( 'pingback_url' ); ?>">
-<link href="https://fonts.googleapis.com/css?family=Permanent+Marker|Work+Sans:200" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css?family=Fredoka+One|Work+Sans:200,600,800" rel="stylesheet"> 
 <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet"> 
 <?php wp_head(); ?>
 </head>

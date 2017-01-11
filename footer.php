@@ -27,7 +27,7 @@
 			 * @hooked storefront_credit         - 20
 			 */
 			do_action( 'storefront_footer' ); ?>
-			<div  class="prod-footer">
+			<div  class="footer-title">
 				Our Products
 				<div  class="links">
 					<a  class="link">
@@ -44,7 +44,7 @@
 					</a>	
 				</div>
 			</div>
-			<div  class="soc-med-cont">
+			<div  class="footer-title">
 				Engage with us!
 				<div  class="soc-med">
 					facebook

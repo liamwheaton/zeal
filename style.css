@@ -66,8 +66,8 @@ header .col-full .storefront-primary-navigation {
       .max .hero-banner .constrain .hero-text {
         display: inline-block;
         margin: 1em 0 0 0;
-        font-family: 'Permanent Marker', cursive;
-        font-weight: 700;
+        font-family: "Fredoka One";
+        font-weight: 800;
         font-size: 4em;
         color: white; }
   .max main {
@@ -104,10 +104,16 @@ header .col-full .storefront-primary-navigation {
         width: 67em;
         margin: 0 auto; }
         .max main .row-full .constrain .heading {
-          font-family: "Permanent Marker";
+          font-family: "Fredoka One";
           font-size: 4em;
           margin-bottom: 0.5em;
           color: #45a31a; }
+        .max main .row-full .constrain .faq-nav {
+          width: 100%;
+          margin: 0;
+          list-style: none;
+          display: flex;
+          justify-content: space-between; }
         .max main .row-full .constrain .rcol-content {
           font-size: 22px;
           max-width: 100%;
@@ -145,6 +151,8 @@ header .col-full .storefront-primary-navigation {
           padding: 0 0 4em 0; }
       .max main .row-full .cont-const {
         margin-bottom: 3em; }
+      .max main .row-full .faq {
+        flex-direction: column; }
       .max main .row-full .pirate_forms_wrap #pirate_forms_12 {
         display: flex;
         flex-wrap: wrap;
@@ -198,13 +206,13 @@ header .col-full .storefront-primary-navigation {
       .site-footer .col-full .links .link {
         color: #b1b5ba;
         margin-bottom: 10px; }
-    .site-footer .col-full .soc-med-cont {
-      font-family: "Permanent Marker", cursive;
+    .site-footer .col-full .footer-title {
+      font-family: "Fredoka One", cursive;
       font-size: 30px;
       margin-left: 5em;
       padding-top: 40px;
       color: white; }
-      .site-footer .col-full .soc-med-cont .soc-med {
+      .site-footer .col-full .footer-title .soc-med {
         margin-bottom: 10px;
         color: #b1b5ba; }
   .site-footer .max {

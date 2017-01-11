@@ -86,8 +86,8 @@ header {
 			.hero-text {
 				display:inline-block;
 				margin: 1em 0 0 0;
-				font-family:'Permanent Marker', cursive;
-				font-weight:700;
+				font-family:"Fredoka One";
+				font-weight:800;
 				font-size:4em;
 				color:white;
 			}
@@ -134,10 +134,17 @@ header {
 				  width:67em;
 				  margin: 0 auto;
 				  .heading {
-					  font-family: "Permanent Marker";
+					  font-family: "Fredoka One";
 					  font-size:4em;
 					  margin-bottom:0.5em;
 					  color:#45a31a;
+				  }
+				  .faq-nav {
+					  width:100%;
+					  margin:0;
+					  list-style:none;
+					  display:flex;
+					  justify-content:space-between;
 				  }
 					.rcol-content {
 						font-size:22px;
@@ -184,6 +191,9 @@ header {
 			  }
 			  .cont-const {
 				  margin-bottom: 3em;
+			  }
+			  .faq {
+				  flex-direction:column;
 			  }
 			  .pirate_forms_wrap {
 					#pirate_forms_12 {
@@ -260,8 +270,8 @@ header {
 				margin-bottom:10px;
 			}
 		}
-		.soc-med-cont {
-			font-family:"Permanent Marker", cursive;
+		.footer-title {
+			font-family:"Fredoka One", cursive;
 			font-size:30px;
 			margin-left:5em;
 			padding-top:40px;
