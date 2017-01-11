@@ -146,6 +146,9 @@ header {
 					  display:flex;
 					  justify-content:space-between;
 				  }
+				  .hrf-faq-list {
+					  margin-bottom:40px;
+				  }
 					.rcol-content {
 						font-size:22px;
 						max-width:100%;
@@ -196,7 +199,7 @@ header {
 				  flex-direction:column;
 			  }
 			  .pirate_forms_wrap {
-					#pirate_forms_12 {
+					#pirate_forms_12, #pirate_forms_10 {
 						display:flex;			  
 						flex-wrap:wrap;
 						flex-direction:row;

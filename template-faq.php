@@ -29,9 +29,20 @@
 				<?php echo do_shortcode("[hrf_faqs  category='Category-One,wordpress,plugins']"); ?>
 			</div>
 		</div>
-		<div  class="row-full">
+		<div  class="relate">
+			<div  class="triangle-break">
+				
+			</div>
 		</div>
-		<div  class="row-full">
+		<div class="row-full">
+			<div class="constrain column">
+				<div  class="heading">
+					Still have questions? Ask away!	
+				</div>
+				<?php echo do_shortcode( '[pirate_forms]' ) ?>	
+			</div>
+		</div>
+			
 	</main><!-- #main -->
 </div>	
 
