@@ -10,12 +10,16 @@
 get_header(); ?>
 
 <div class="max">
+	<div  class="hero-banner">
+		<div  class="constrain">
+			<span  class="hero-text">
+				We'd love to hear from you!
+			</span>	
+		</div>
+	</div>	
 	<main id="main" class="site-main" role="main">
 		<div  class="row-full">
 			<div class="constrain column">
-				<div  class="heading">
-					We'd love to hear from you!
-				</div>
 				<div  class="constrain cont-const">
 					<div  class="lcol-content contact-detail">
 						+64 9 820 5010

@@ -40,27 +40,36 @@ header .col-full .site-branding {
 header .col-full .site-search .widget form {
   margin-top: 20px; }
 
+header .col-full .site-header-cart li .cart-contents span {
+  color: white; }
+
 header .col-full .storefront-primary-navigation {
-  background-color: white; }
+  background-color: #505050; }
 
 #menu-navigation li {
   text-transform: uppercase;
+  font-weight: bold;
+  font-family: helvetica;
   color: #4b4f54; }
+
+.price {
+  color: red; }
 
 .max {
   max-width: 100%; }
   .max .hero-banner {
-    height: 400px;
-    background: url("http://placekitten.com/g/1920/400"); }
-    .max .hero-banner .hero-text {
-      display: inline-block;
-      text-align: right;
-      width: 600px;
-      margin: 0.5em 0 0 47%;
-      font-family: 'Permanent Marker', cursive;
-      font-weight: 700;
-      font-size: 4em;
-      color: #45a31a; }
+    height: 300px;
+    background-image: url("http://placekitten.com/g/1920/300"); }
+    .max .hero-banner .constrain {
+      width: 67em;
+      margin: 0 auto; }
+      .max .hero-banner .constrain .hero-text {
+        display: inline-block;
+        margin: 1em 0 0 0;
+        font-family: 'Permanent Marker', cursive;
+        font-weight: 700;
+        font-size: 4em;
+        color: white; }
   .max main {
     width: 100%;
     margin: 0 auto; }
@@ -122,9 +131,9 @@ header .col-full .storefront-primary-navigation {
           margin-left: 1em;
           padding: 10px 0 30px 0; }
         .max main .row-full .constrain .lcol-image {
-          width: 200px;
-          height: 200px;
-          border-radius: 200px;
+          width: 300px;
+          height: 300px;
+          border-radius: 300px;
           border-width: 1em;
           border-style: solid;
           border-color: #45a31a; }
@@ -148,6 +157,8 @@ header .col-full .storefront-primary-navigation {
           height: 226px; }
           .max main .row-full .pirate_forms_wrap #pirate_forms_12 .contact_message_wrap #pirate-forms-contact-message {
             height: 200px; }
+        .max main .row-full .pirate_forms_wrap #pirate_forms_12 #pirate-forms-contact-submit {
+          background-color: #45a31a; }
 
 #masthead {
   margin-bottom: 0; }
@@ -188,8 +199,11 @@ header .col-full .storefront-primary-navigation {
         color: #b1b5ba;
         margin-bottom: 10px; }
     .site-footer .col-full .soc-med-cont {
+      font-family: "Permanent Marker", cursive;
+      font-size: 30px;
       margin-left: 5em;
-      padding-top: 2.6em; }
+      padding-top: 40px;
+      color: white; }
       .site-footer .col-full .soc-med-cont .soc-med {
         margin-bottom: 10px;
         color: #b1b5ba; }

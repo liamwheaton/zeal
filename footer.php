@@ -27,7 +27,25 @@
 			 * @hooked storefront_credit         - 20
 			 */
 			do_action( 'storefront_footer' ); ?>
+			<div  class="prod-footer">
+				Our Products
+				<div  class="links">
+					<a  class="link">
+						Dried Food	
+					</a>	
+					<a  class="link">
+						Wet Food	
+					</a>	
+					<a  class="link">
+						Treats 
+					</a>	
+					<a  class="link">
+						Chews 
+					</a>	
+				</div>
+			</div>
 			<div  class="soc-med-cont">
+				Engage with us!
 				<div  class="soc-med">
 					facebook
 				</div>

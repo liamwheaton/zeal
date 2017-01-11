@@ -10,17 +10,14 @@
 	get_header(); ?>
 
 	<div class="max">
-		<div class="hero-banner">
-			<Span  class="hero-text">
-				Return the unconditional love
-			</Span>
-		</div>	
+	<!-- slider -->
+		<?php motoPressSlider('test') ?>
 		<main id="main" class="site-main" role="main">
 			<div class="row-full">
 				<div class="constrain">
 					<div class="rcol-content">Our pets give us so much unconditional love and it is often taken  for granted. They are there for us in so many ways, and it's proven scientifically that having pets around as a part of our lives, makes us happier people. We can return their love by taking care of them with affection and understanding and very importantly, by feeding them a healthy diet. Our products are made with genuine care by the family of staff and management and we promise not to compromise on the natural goodness of the food we create.
 					</div>
-					<img class="rcol-image" src="http://placekitten.com/g/300/300" />
+					<img class="rcol-image" src="http://placekitten.com/g/300/301" />
 			</div>
 		</div>
 		<div  class="relate">
