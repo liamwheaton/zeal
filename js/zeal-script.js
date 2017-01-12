@@ -30,6 +30,21 @@ jQuery(document).ready(function() {
 		jQuery('.zeal-faq').hide();
 		jQuery(this.getAttribute('href')).show();
 	});
+	jQuery('.faq-nav-item:nth-child(1)').click(function() {
+		jQuery('hr').removeClass();
+	});
+	jQuery('.faq-nav-item:nth-child(2)').click(function() {
+		jQuery('hr').removeClass();
+		jQuery('hr').addClass('active-2');
+	});
+	jQuery('.faq-nav-item:nth-child(3)').click(function() {
+		jQuery('hr').removeClass();
+		jQuery('hr').addClass('active-3');
+	});
+	jQuery('.faq-nav-item:nth-child(4)').click(function() {
+		jQuery('hr').removeClass();
+		jQuery('hr').addClass('active-4');
+	});
 });
 
 

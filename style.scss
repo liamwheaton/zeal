@@ -141,17 +141,36 @@ header {
 				  }
 				  .faq-nav {
 					  width:100%;
-					  margin:0 0 40px 0;
+					  margin:0 0 10px 0;
 					  list-style:none;
 					  display:flex;
 					  justify-content:space-between;
 					  .faq-nav-item {
 						  font-size:18px;   
 						  font-weight:bold;
+						  width:25%;
+						  text-align:center;
 					  }
 					  .faq-nav-item.nav-active {
 						  color:red;
 					  }
+				  }
+				  hr {
+					  height:5px;
+					  width:25%;
+					  margin-bottom:30px;
+					  border:none;
+					  background:tomato;
+					  transition: .3s ease-in-out;
+				  }
+				  .active-2 {
+					  margin-left:25%;
+				  }
+				  .active-3 {
+					  margin-left:50%;
+				  }
+				  .active-4 {
+					  margin-left:75%;
 				  }
 				  .hrf-faq-list {
 					  margin-bottom:40px;

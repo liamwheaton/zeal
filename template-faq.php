@@ -26,6 +26,7 @@
 					<li class="faq-nav-item" href="#3">Category Three</li>	
 					<li class="faq-nav-item" href="#4">Category Four</li>	
 				</ul>
+				<hr />
 				<div id="1" class="zeal-faq active">
 					<?php echo do_shortcode("[hrf_faqs  category='Category-One,wordpress,plugins']"); ?>
 				</div>
