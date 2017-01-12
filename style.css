@@ -110,12 +110,21 @@ header .col-full .storefront-primary-navigation {
           color: #45a31a; }
         .max main .row-full .constrain .faq-nav {
           width: 100%;
-          margin: 0;
+          margin: 0 0 40px 0;
           list-style: none;
           display: flex;
           justify-content: space-between; }
+          .max main .row-full .constrain .faq-nav .faq-nav-item {
+            font-size: 18px;
+            font-weight: bold; }
+          .max main .row-full .constrain .faq-nav .faq-nav-item.nav-active {
+            color: red; }
         .max main .row-full .constrain .hrf-faq-list {
           margin-bottom: 40px; }
+        .max main .row-full .constrain .zeal-faq {
+          display: none; }
+        .max main .row-full .constrain .active {
+          display: block; }
         .max main .row-full .constrain .rcol-content {
           font-size: 22px;
           max-width: 100%;

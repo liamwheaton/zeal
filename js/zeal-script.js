@@ -1,4 +1,5 @@
 jQuery(document).ready(function() {
+	// Back to the top button
 	jQuery(window).scroll(function() {
 		if (jQuery(this).scrollTop() > 200) {
 			jQuery('.btt').fadeIn(200);
@@ -11,6 +12,7 @@ jQuery(document).ready(function() {
 
 		jQuery('html, body').animate({scrollTop: 0}, 300);
 	})
+	// Google map click/scroll experience
 	jQuery('#map').addClass('scrolloff');
 	jQuery('#overlay').on('mouseup', function() {
 		jQuery('#map').addClass('scrolloff');
@@ -20,6 +22,13 @@ jQuery(document).ready(function() {
 	});
 	jQuery('#overlay').on('mouseleave', function() {
 		jQuery('#map').addClass('scrolloff');
+	});
+	// FAQ nav state
+	jQuery('.faq-nav-item').click(function(){
+		jQuery('.faq-nav-item').not(this).removeClass('nav-active');
+		jQuery(this).addClass('nav-active');
+		jQuery('.zeal-faq').hide();
+		jQuery(this.getAttribute('href')).show();
 	});
 });
 
